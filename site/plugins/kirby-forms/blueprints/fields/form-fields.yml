@@ -1,0 +1,38 @@
+label: arnoson.kirby-forms.fields
+type: layout
+layouts:
+  - '1/1'
+  - '1/2, 1/2'
+  - '1/3, 2/3'
+  - '2/3, 1/3'
+fieldsets:
+  basic:
+    type: group
+    label: arnoson.kirby-forms.basic
+    fieldsets:
+      - form-field-text
+      - form-field-textarea
+      - form-field-number
+      - form-field-select
+      - form-field-checkbox
+      - form-field-checkboxes
+      - form-field-radio
+      - form-field-counties
+      - form-field-info # plain text. not an input.
+  contact:
+    type: group
+    label: arnoson.kirby-forms.contact
+    fieldsets:
+      - form-field-email
+      - form-field-tel
+  date_time:
+    label: arnoson.kirby-forms.date-and-time
+    type: group
+    fieldsets:
+      - form-field-date
+      - form-field-time
+  other:
+    type: group
+    label: arnoson.kirby-forms.other
+    fieldsets:
+      - form-field-url

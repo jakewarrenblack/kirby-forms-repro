@@ -1,0 +1,11 @@
+/kirby
+/vendor
+/example/media
+/example/site/plugins
+/example/site/accounts
+/example/site/languages
+/example/site/config
+/index.js
+/index.css
+*.min.css
+/.ddev

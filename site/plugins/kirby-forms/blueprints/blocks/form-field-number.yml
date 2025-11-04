@@ -1,0 +1,30 @@
+name: arnoson.kirby-forms.number
+icon: 🔟
+fields:
+  extends: fields/form-field-basic
+  validators:
+    type: hidden
+    default: '["num"]'
+  default:
+    extends: fields/form-field-default
+    type: number
+    width: 3/12
+  placeholder:
+    extends: fields/form-field-placeholder
+    width: 3/12
+  min:
+    extends: fields/form-field-min
+    width: 2/12
+  max:
+    extends: fields/form-field-max
+    width: 2/12
+  step:
+    type: text
+    label: arnoson.kirby-forms.step
+    counter: false
+    spellcheck: false
+    placeholder: '0.01'
+    width: 2/12
+  error:
+    extends: fields/form-error-message
+    placeholder: arnoson.kirby-forms.invalid-number-error

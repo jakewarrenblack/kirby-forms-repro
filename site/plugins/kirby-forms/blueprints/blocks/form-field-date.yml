@@ -1,0 +1,18 @@
+name: arnoson.kirby-forms.date
+icon: 📆
+fields:
+  extends: fields/form-field-basic
+  validators:
+    type: hidden
+    default: '["date"]'
+  default:
+    extends: fields/form-field-default
+    type: date
+    time: false
+    width: 1/2
+  placeholder:
+    extends: fields/form-field-placeholder
+    width: 1/2
+  error:
+    extends: fields/form-error-message
+    placeholder: arnoson.kirby-forms.invalid-date-error

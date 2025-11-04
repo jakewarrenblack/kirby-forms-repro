@@ -1,0 +1,53 @@
+Sections: 
+
+----
+
+Organisation-name: company name
+
+----
+
+County: Dublin
+
+----
+
+Role-in-the-organisation: Director
+
+----
+
+Website-url: https://example.com
+
+----
+
+Eircode: A921234
+
+----
+
+Contact-name: John Doe
+
+----
+
+Email: john.doe@email.com
+
+----
+
+Sector: CCI
+
+----
+
+Your-areas-of-interest: industry_research,funding_opportunities,informing_curricula_design,industry_sponsored_research,invitations_to_events_workshops_seminars,networking_events
+
+----
+
+Other-area-of-interest: 
+
+----
+
+Keep-up-to-date-on-news-and-activities-across-the-iadt-campus: on
+
+----
+
+Uuid: 0cokyuhngjij8rzu
+
+----
+
+Form-submitted: 2025-10-07T07:22:38+00:00

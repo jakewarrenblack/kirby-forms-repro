@@ -1,0 +1,29 @@
+extends: pages/form
+title: Default form
+
+tabs:
+  settings:
+    icon: settings
+    label: arnoson.kirby-forms.settings
+    sections:
+      fields:
+        type: fields
+        fields:
+          title:
+            type: text
+            label: Form Title
+            required: true
+          subtitle:
+            type: textarea
+            label: Form Subtitle
+            required: false
+          disclaimer:
+            type: textarea
+            help: To appear below the form. E.g. GDPR disclaimer.
+            label: Form Disclaimer
+            required: false
+
+      form_submit: sections/form-submit
+      form_success: sections/form-success
+      form_error: sections/form-error      
+      form_notification_email: sections/form-notification-email

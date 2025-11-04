@@ -1,0 +1,16 @@
+type: fields
+fields:
+  submit_headline:
+    type: headline
+    label: arnoson.kirby-forms.submit
+    numbered: false
+
+  label_submit:
+    type: text
+    required: true
+    default: Submit
+    placeholder: Submit
+    label: arnoson.kirby-forms.submit-button-label
+
+  submit_gap:
+    type: gap

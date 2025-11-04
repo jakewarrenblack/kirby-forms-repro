@@ -1,0 +1,8 @@
+name: info (Plain text)
+icon: ✏️
+fields:
+  text:
+    type: textarea
+    label: Text
+    help: This text will appear in the form, but is not a field
+

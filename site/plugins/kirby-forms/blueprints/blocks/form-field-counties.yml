@@ -1,0 +1,32 @@
+name: County dropdown
+icon: 🌍
+fields:
+  extends: fields/form-field-basic
+  default:
+    extends: fields/form-field-default
+    type: text
+    placeholder: arnoson-kirby-forms.default-select-placeholder
+    width: 5/12
+  placeholder:
+    extends: fields/form-field-placeholder
+    placeholder: ' — '
+    width: 5/12
+  empty:
+    label: arnoson.kirby-forms.empty
+    type: toggle
+    width: 2/12
+    default: true
+
+  # actually, why do i even need to render this in the panel? there's nothing to modify
+  # options:
+  #   label: Category
+  #   type: select
+  #   options:
+  #     type: api
+  #     url: "{{ site.url }}/counties.json"
+  #     query: counties
+  #     text: "{{ item.label }}"
+  #     value: "{{ item.value }}"
+  error:
+    extends: fields/form-error-message
+    placeholder: arnoson.kirby-forms.invalid-select-error

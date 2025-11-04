@@ -1,0 +1,33 @@
+name: arnoson.kirby-forms.checkboxes
+icon: ☑️
+fields:
+  extends: fields/form-field-basic
+  required:
+    type: toggle
+    label: arnoson.kirby-forms.required
+    default: false
+    width: 2/12
+    # Html doesn't allow required on a group of checkboxes.
+    disabled: true
+  default:
+    type: text
+    label: arnoson.kirby-forms.default
+    placeholder: arnoson-kirby-forms.default-checkboxes-placeholder
+  options:
+    type: structure
+    label: arnoson.kirby-forms.options
+    fields:
+      value:
+        type: text
+        label: arnoson.kirby-forms.value
+        width: 1/2
+        required: true
+        pattern: '^[^,]*$'
+        help: arnoson.kirby-forms.no-comma-in-value
+      text:
+        type: text
+        label: arnoson.kirby-forms.text
+        width: 1/2
+  error:
+    extends: fields/form-error-message
+    placeholder: arnoson.kirby-forms.invalid-checkboxes-error

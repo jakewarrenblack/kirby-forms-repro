@@ -1,0 +1,5 @@
+title: arnoson.kirby-forms.form
+tabs:
+  fields: tabs/form-fields
+  entries: tabs/form-entries
+  settings: tabs/form-settings

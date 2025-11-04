@@ -1,0 +1,21 @@
+extends: pages/form
+title: Newsletter form
+
+tabs:
+  settings:
+    icon: settings
+    label: arnoson.kirby-forms.settings
+    sections:
+      fields:
+        type: fields
+        fields:
+          max_participants:
+            type: number
+            label: Max Participants
+            required: true
+
+      form_submit: sections/form-submit
+      form_success: sections/form-success
+      form_error: sections/form-error
+      form_confirmation_email: sections/form-confirmation-email-workshop
+      form_notification_email: sections/form-notification-email
